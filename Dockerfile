@@ -1,4 +1,4 @@
 FROM nginx
 
 COPY ./nginx.conf /etc/nginx/nginx.conf
-COPY ./web-app /usr/share/nginx/html
+COPY ./web-app /data/www
